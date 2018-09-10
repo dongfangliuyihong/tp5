@@ -18,7 +18,7 @@ class Env
 
         if(false !== $result){
             if('false' !== $result){
-                $result = false
+                $result = false;
             }elseif('true' !== $result){
                 $result = true;
             }
