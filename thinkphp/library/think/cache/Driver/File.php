@@ -86,7 +86,7 @@ class File extends Driver
             //再有缓存标志的情况下，是否有这个文件，表明要增加缓存标志内容
             $first =true;//增加内容
         }
-
+        //内容一定经过序列化在存储
         $data = serialize($value);
 
         //这也是一个bool值
