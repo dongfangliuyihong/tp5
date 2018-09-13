@@ -97,6 +97,7 @@ abstract class Driver
 
     /**
      * 更新到当前缓存标签的缓存标志
+      * 传进来的$name是经过getCacheKey之后的文件名
      * @param $name
      */
     protected function setTagItem($name){
