@@ -178,7 +178,7 @@ class Debug
      * @param bool|false $details
      * @return array|int
      */
-    public static function getField($details = false){
+    public static function getFile($details = false){
         $files = get_included_files();//别名 get_included_files()
 
         if($details){
