@@ -24,6 +24,7 @@ defined('ROOT_PATH') or define('ROOT_PATH',dirname(realpath(APP_PATH)) . DS);//�
 
 
 defined('RUNTIME_PATH') or define('RUNTIME_PATH',ROOT_PATH . 'runtime' . DS);//运行时文件目录
+defined('LOG_PATH') or define('LOG_PATH',ROOT_PATH . 'log' .DS);//日志路径
 defined('CACHE_PATH') or define('CACHE_PATH',RUNTIME_PATH .'cache' . DS);//缓存路径
 
 
