@@ -389,7 +389,7 @@ class Session
      * 重新生成id
      * @param bool|false $delete
      */
-    public static function regenerrate($delete = false){
+    public static function regenerate($delete = false){
         session_regenerate_id($delete);
     }
 
